@@ -2,7 +2,7 @@ import io
 import pdfplumber
 import docx
 import spacy
-import openai
+import openai   
 from config import OPENAI_API_KEY, OPENAI_MODEL
 
 nlp = spacy.load("en_core_web_sm")
